@@ -69,30 +69,43 @@ dl,
 table,
 address,
 figure {
-
+    margin: 0 0 24px;
 }
 
-ul,
-ol,
-blockquote {
+ul, ol{
+  padding-left: 24px;
+}
 
+blockquote * {
+    font-size: inherit;
+    line-height: inherit; 
 }
 
 li ul,
 li ol{
-
+    margin-bottom: 0;
 }
 
 blockquote {
-
+    font-style: italic;
+    font-size: 23px;
+    line-height: 32px;
+    margin: 0 0 24px;
+    font-family: "Times New Roman", serif;
 }
 
 figcaption {
-
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 8px;
+    color: Grey;
 }
 
 hr {
-
+    border: 0;
+    height: 1px;
+    background: LightGrey;
+    margin: 0 0 24px;
 }
 
 a {
