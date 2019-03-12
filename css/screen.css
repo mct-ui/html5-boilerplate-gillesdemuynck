@@ -4,7 +4,9 @@ html{
   line-height: 1.5;
   font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
   color: #111;
-  padding: 24px 24px 0
+  padding: 24px 24px 0;
+  -WebKit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 ::-moz-selection{
@@ -78,7 +80,7 @@ ul, ol{
 
 blockquote * {
     font-size: inherit;
-    line-height: inherit; 
+    line-height: inherit;
 }
 
 li ul,
